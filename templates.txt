@@ -1,0 +1,35 @@
+# TiaDork — Custom template file example
+# Lines beginning with # are ignored. One template per line.
+# These templates are used in: ("template")keyword format.
+#
+# Add any search dork templates relevant to your target technology.
+
+# ── Apache / Generic ─────────────────────────────────────────────────────────
+Index of /
+Apache/2 Server at
+intitle:"Apache Status"
+intitle:"Apache2 Ubuntu Default Page"
+
+# ── PHP / Web Apps ────────────────────────────────────────────────────────────
+intitle:"phpinfo()"
+inurl:phpinfo.php
+intitle:"PHP Configuration"
+inurl:config.php
+
+# ── Login Panels ─────────────────────────────────────────────────────────────
+intitle:"Login" inurl:admin
+intitle:"Administrator Login"
+inurl:login.php
+inurl:admin/login
+
+# ── Exposed Files ─────────────────────────────────────────────────────────────
+intitle:"index of" ".env"
+intitle:"index of" "config.yml"
+intitle:"index of" "database.sql"
+intitle:"index of" "backup"
+
+# ── CMS ───────────────────────────────────────────────────────────────────────
+inurl:joomla/administrator
+inurl:wp-login.php
+inurl:/user/login drupal
+inurl:bitrix/admin

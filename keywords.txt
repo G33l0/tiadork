@@ -1,0 +1,20 @@
+# TiaDork — Example keyword file
+# Lines beginning with # are ignored.
+# Add one keyword or target domain per line.
+# Example usage: site:target.com, inurl:admin, filetype:sql, etc.
+
+site:example.com
+inurl:admin
+filetype:sql
+filetype:env
+filetype:log
+inurl:wp-login
+inurl:wp-admin
+site:*.gov
+site:*.edu
+inurl:config
+inurl:backup
+filetype:bak
+intitle:"index of"
+inurl:shell
+inurl:phpinfo

@@ -1,0 +1,10 @@
+# TiaDork — Google Dork Combiner
+# Author  : g33l0
+# Telegram: https://t.me/x0x0h33l0
+
+# Required
+colorama>=0.4.6
+
+# Optional — enables progress bar for large keyword lists (100+ keywords)
+# Install with: pip install tqdm
+tqdm>=4.64.0
